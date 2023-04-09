@@ -1,0 +1,14 @@
+.filter-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.filter-panel input[type="radio"],
+.filter-panel input[type="checkbox"] {
+  margin-right: 5px;
+}
